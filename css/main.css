@@ -1,0 +1,112 @@
+/* Colores */ /* Fuentes */
+/* Personalizacion bootstrap*/
+/* navbar */
+body {
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+body .navbar-brand {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #888888;
+  padding-left: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+body .navbar-brand:hover {
+  transform: scale(1.5);
+  color: #888888;
+}
+body .navbar-brand .nav-link {
+  color: #808080;
+}
+
+/* body home */
+.homebod {
+  background-image: url(../media/one-hiking-lifestyle-summer-yoga.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.homebodcourse {
+  background-color: #D9D9D9;
+}
+
+.hometitle {
+  color: #efefef;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+
+.coursecards { 
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.formUser {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.coursebg {
+  background-color: #D9D9D9;
+}
+
+.btnposition {
+  display: flex;
+  justify-content: center;
+}
+
+.btnmarg { 
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.normaltext {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: grey;
+}
+
+.basket {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* footer */
+.bgcolorfooter {
+  background-color: #F2F2F2;
+}
+.bgcolorfooter .footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  margin-right: 0px;
+}
+.bgcolorfooter .footer .icono {
+  width: 35px;
+  padding: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+.bgcolorfooter .footer .icono:hover {
+  transform: scale(1.15);
+}
+
